@@ -1,0 +1,907 @@
+The target system is: Linux -  - cortexa5hf-neon-poky
+The host system is: Linux - 4.15.0-112-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc -march=armv7-a;-marm;-mfpu=neon;-mfloat-abi=hard;-mcpu=cortex-a5;-mmusl;--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/3.10.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++ -march=armv7-a;-marm;-mfpu=neon;-mfloat-abi=hard;-mcpu=cortex-a5;-mmusl;--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/3.10.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_258f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_258f0.dir/build.make CMakeFiles/cmTC_258f0.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_258f0.dir/testCCompiler.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_258f0.dir/testCCompiler.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_258f0
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_258f0.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_258f0.dir/testCCompiler.c.o  -o cmTC_258f0 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e47c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e47c.dir/build.make CMakeFiles/cmTC_5e47c.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o   -c /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5e47c
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e47c.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o  -o cmTC_5e47c 
+Using built-in specs.
+COLLECT_GCC=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc
+COLLECT_LTO_WRAPPER=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper
+Target: arm-poky-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot-native/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-mpc=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/
+LIBRARY_PATH=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi' '-march=armv7-a' '-marm' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a5' '-mmusl' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_5e47c' '-mtls-dialect=gnu'
+ /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/collect2 -plugin /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/liblto_plugin.so -plugin-opt=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc672UW4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_5e47c /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crt1.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crti.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbegin.o -L/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0 -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0 -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtend.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi' '-march=armv7-a' '-marm' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a5' '-mmusl' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_5e47c' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-poky-linux-musleabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5e47c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5e47c.dir/build.make CMakeFiles/cmTC_5e47c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o   -c /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5e47c]
+  ignore line: [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e47c.dir/link.txt --verbose=1]
+  ignore line: [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o  -o cmTC_5e47c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper]
+  ignore line: [Target: arm-poky-linux-gnueabi]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot-native/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-mpc=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/]
+  ignore line: [LIBRARY_PATH=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi' '-march=armv7-a' '-marm' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a5' '-mmusl' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_5e47c' '-mtls-dialect=gnu']
+  link line: [ /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/collect2 -plugin /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/liblto_plugin.so -plugin-opt=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc672UW4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_5e47c /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crt1.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crti.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbegin.o -L/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0 -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0 -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtend.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crtn.o]
+    arg [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc672UW4.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5e47c] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crt1.o] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crti.o] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0] ==> dir [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0]
+    arg [-L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib] ==> dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib]
+    arg [-L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0] ==> dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0]
+    arg [-L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib] ==> dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_5e47c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtend.o] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0] ==> [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0]
+  collapse library dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib] ==> [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib]
+  collapse library dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0] ==> [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0]
+  collapse library dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib] ==> [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0;/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib;/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0;/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5069d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5069d.dir/build.make CMakeFiles/cmTC_5069d.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5069d.dir/feature_tests.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types     -std=c11 -o CMakeFiles/cmTC_5069d.dir/feature_tests.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5069d
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5069d.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_5069d.dir/feature_tests.c.o  -o cmTC_5069d 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f4c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f4c0.dir/build.make CMakeFiles/cmTC_7f4c0.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f4c0.dir/feature_tests.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types     -std=c99 -o CMakeFiles/cmTC_7f4c0.dir/feature_tests.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7f4c0
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f4c0.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_7f4c0.dir/feature_tests.c.o  -o cmTC_7f4c0 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b08ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b08ae.dir/build.make CMakeFiles/cmTC_b08ae.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b08ae.dir/feature_tests.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types     -std=c90 -o CMakeFiles/cmTC_b08ae.dir/feature_tests.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b08ae
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b08ae.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_b08ae.dir/feature_tests.c.o  -o cmTC_b08ae 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71e09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71e09.dir/build.make CMakeFiles/cmTC_71e09.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_71e09.dir/testCXXCompiler.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_71e09.dir/testCXXCompiler.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_71e09
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71e09.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_71e09.dir/testCXXCompiler.cxx.o  -o cmTC_71e09 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2a49/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2a49.dir/build.make CMakeFiles/cmTC_a2a49.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o -c /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a2a49
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2a49.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a2a49 
+Using built-in specs.
+COLLECT_GCC=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++
+COLLECT_LTO_WRAPPER=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper
+Target: arm-poky-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot-native/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-mpc=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array
+Thread model: posix
+gcc version 7.3.0 (GCC) 
+COMPILER_PATH=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/
+LIBRARY_PATH=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi' '-march=armv7-a' '-marm' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a5' '-mmusl' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_a2a49' '-shared-libgcc' '-mtls-dialect=gnu'
+ /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/collect2 -plugin /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/liblto_plugin.so -plugin-opt=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPkBliD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_a2a49 /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crt1.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crti.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbegin.o -L/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0 -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0 -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtend.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi' '-march=armv7-a' '-marm' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a5' '-mmusl' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_a2a49' '-shared-libgcc' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-poky-linux-musleabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a2a49/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a2a49.dir/build.make CMakeFiles/cmTC_a2a49.dir/build]
+  ignore line: [make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o -c /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a2a49]
+  ignore line: [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2a49.dir/link.txt --verbose=1]
+  ignore line: [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -v -rdynamic CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a2a49 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper]
+  ignore line: [Target: arm-poky-linux-gnueabi]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-7.3.0-r0/gcc-7.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/7.3.0 --with-build-time-tools=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot-native/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --without-long-double-128 --enable-poison-system-directories --with-mpfr=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --with-mpc=/home/prasanth/ganesh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-arm/7.3.0-r0/recipe-sysroot --disable-static --enable-nls --enable-initfini-array]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/]
+  ignore line: [LIBRARY_PATH=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/:/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi' '-march=armv7-a' '-marm' '-mfpu=neon' '-mfloat-abi=hard' '-mcpu=cortex-a5' '-mmusl' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-rdynamic' '-o' 'cmTC_a2a49' '-shared-libgcc' '-mtls-dialect=gnu']
+  link line: [ /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/collect2 -plugin /opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/liblto_plugin.so -plugin-opt=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPkBliD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_a2a49 /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crt1.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crti.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbegin.o -L/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0 -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0 -L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib -O1 --hash-style=gnu --as-needed CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtend.o /opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crtn.o]
+    arg [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPkBliD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a2a49] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crt1.o] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crti.o] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0] ==> dir [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0]
+    arg [-L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib] ==> dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib]
+    arg [-L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0] ==> dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0]
+    arg [-L/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib] ==> dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [CMakeFiles/cmTC_a2a49.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtend.o] ==> ignore
+    arg [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0] ==> [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0]
+  collapse library dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib] ==> [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib]
+  collapse library dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0] ==> [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0]
+  collapse library dir [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib] ==> [/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0;/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/lib;/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib/arm-poky-linux-gnueabi/7.3.0;/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a18f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a18f.dir/build.make CMakeFiles/cmTC_0a18f.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a18f.dir/feature_tests.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types     -std=c++1z -o CMakeFiles/cmTC_0a18f.dir/feature_tests.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0a18f
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a18f.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_0a18f.dir/feature_tests.cxx.o  -o cmTC_0a18f 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93da2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93da2.dir/build.make CMakeFiles/cmTC_93da2.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93da2.dir/feature_tests.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types     -std=c++14 -o CMakeFiles/cmTC_93da2.dir/feature_tests.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_93da2
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93da2.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_93da2.dir/feature_tests.cxx.o  -o cmTC_93da2 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c941/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c941.dir/build.make CMakeFiles/cmTC_6c941.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c941.dir/feature_tests.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types     -std=c++11 -o CMakeFiles/cmTC_6c941.dir/feature_tests.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6c941
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c941.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_6c941.dir/feature_tests.cxx.o  -o cmTC_6c941 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9971/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9971.dir/build.make CMakeFiles/cmTC_f9971.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9971.dir/feature_tests.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types     -std=c++98 -o CMakeFiles/cmTC_f9971.dir/feature_tests.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f9971
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9971.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_f9971.dir/feature_tests.cxx.o  -o cmTC_f9971 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db1d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db1d7.dir/build.make CMakeFiles/cmTC_db1d7.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db1d7.dir/CheckIncludeFile.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_db1d7.dir/CheckIncludeFile.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_db1d7
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db1d7.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_db1d7.dir/CheckIncludeFile.c.o  -o cmTC_db1d7 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eaa4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eaa4e.dir/build.make CMakeFiles/cmTC_eaa4e.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eaa4e.dir/CheckSymbolExists.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_eaa4e.dir/CheckSymbolExists.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eaa4e
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaa4e.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types    -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_eaa4e.dir/CheckSymbolExists.c.o  -o cmTC_eaa4e 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+File /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAS_C__Wall succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a82b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a82b.dir/build.make CMakeFiles/cmTC_1a82b.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a82b.dir/src.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -DHAS_C__Wall   -Wall -o CMakeFiles/cmTC_1a82b.dir/src.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1a82b
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a82b.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types  -DHAS_C__Wall  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_1a82b.dir/src.c.o  -o cmTC_1a82b 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_C__Werror_main succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1483/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1483.dir/build.make CMakeFiles/cmTC_d1483.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1483.dir/src.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DHAS_C__Werror_main   -Werror=main -o CMakeFiles/cmTC_d1483.dir/src.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d1483
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1483.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DHAS_C__Werror_main  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_d1483.dir/src.c.o  -o cmTC_d1483 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_C__Wformat succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78ceb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78ceb.dir/build.make CMakeFiles/cmTC_78ceb.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78ceb.dir/src.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -DHAS_C__Wformat   -Wformat -o CMakeFiles/cmTC_78ceb.dir/src.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_78ceb
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78ceb.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -DHAS_C__Wformat  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_78ceb.dir/src.c.o  -o cmTC_78ceb 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_C__Wmain succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4cc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4cc4.dir/build.make CMakeFiles/cmTC_b4cc4.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4cc4.dir/src.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -DHAS_C__Wmain   -Wmain -o CMakeFiles/cmTC_b4cc4.dir/src.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b4cc4
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4cc4.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -DHAS_C__Wmain  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_b4cc4.dir/src.c.o  -o cmTC_b4cc4 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_C__Wuninitialized succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ffee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ffee.dir/build.make CMakeFiles/cmTC_7ffee.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ffee.dir/src.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -DHAS_C__Wuninitialized   -Wuninitialized -o CMakeFiles/cmTC_7ffee.dir/src.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7ffee
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ffee.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -DHAS_C__Wuninitialized  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_7ffee.dir/src.c.o  -o cmTC_7ffee 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_C__Winit_self succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9da7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9da7.dir/build.make CMakeFiles/cmTC_f9da7.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9da7.dir/src.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -DHAS_C__Winit_self   -Winit-self -o CMakeFiles/cmTC_f9da7.dir/src.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f9da7
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9da7.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -DHAS_C__Winit_self  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_f9da7.dir/src.c.o  -o cmTC_f9da7 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_C__Werror_implicit succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_996aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_996aa.dir/build.make CMakeFiles/cmTC_996aa.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_996aa.dir/src.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -DHAS_C__Werror_implicit   -Werror=implicit -o CMakeFiles/cmTC_996aa.dir/src.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_996aa
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_996aa.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -DHAS_C__Werror_implicit  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_996aa.dir/src.c.o  -o cmTC_996aa 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAS_C__Werror_missing_parameter_type succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5cb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5cb6.dir/build.make CMakeFiles/cmTC_d5cb6.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5cb6.dir/src.c.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -Werror=implicit -DHAS_C__Werror_missing_parameter_type   -Werror=missing-parameter-type -o CMakeFiles/cmTC_d5cb6.dir/src.c.o   -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d5cb6
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5cb6.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-gcc   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi  -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -Werror=implicit -DHAS_C__Werror_missing_parameter_type  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_d5cb6.dir/src.c.o  -o cmTC_d5cb6 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Wall succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3ea2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3ea2.dir/build.make CMakeFiles/cmTC_f3ea2.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3ea2.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -DHAS_CXX__Wall   -Wall -o CMakeFiles/cmTC_f3ea2.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f3ea2
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ea2.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -DHAS_CXX__Wall  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_f3ea2.dir/src.cxx.o  -o cmTC_f3ea2 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Werror_main succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e5f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e5f8.dir/build.make CMakeFiles/cmTC_2e5f8.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2e5f8.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DHAS_CXX__Werror_main   -Werror=main -o CMakeFiles/cmTC_2e5f8.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2e5f8
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e5f8.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -DHAS_CXX__Werror_main  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_2e5f8.dir/src.cxx.o  -o cmTC_2e5f8 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Wformat succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d6c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d6c7.dir/build.make CMakeFiles/cmTC_2d6c7.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d6c7.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -DHAS_CXX__Wformat   -Wformat -o CMakeFiles/cmTC_2d6c7.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2d6c7
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d6c7.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -DHAS_CXX__Wformat  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_2d6c7.dir/src.cxx.o  -o cmTC_2d6c7 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Wmain succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3eb76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3eb76.dir/build.make CMakeFiles/cmTC_3eb76.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3eb76.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -DHAS_CXX__Wmain   -Wmain -o CMakeFiles/cmTC_3eb76.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3eb76
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb76.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -DHAS_CXX__Wmain  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_3eb76.dir/src.cxx.o  -o cmTC_3eb76 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Wuninitialized succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39f29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39f29.dir/build.make CMakeFiles/cmTC_39f29.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39f29.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -DHAS_CXX__Wuninitialized   -Wuninitialized -o CMakeFiles/cmTC_39f29.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_39f29
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39f29.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -DHAS_CXX__Wuninitialized  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_39f29.dir/src.cxx.o  -o cmTC_39f29 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Winit_self succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d734a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d734a.dir/build.make CMakeFiles/cmTC_d734a.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d734a.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -DHAS_CXX__Winit_self   -Winit-self -o CMakeFiles/cmTC_d734a.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d734a
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d734a.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -DHAS_CXX__Winit_self  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_d734a.dir/src.cxx.o  -o cmTC_d734a 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Wnon_virtual_dtor succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64c87/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64c87.dir/build.make CMakeFiles/cmTC_64c87.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64c87.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -DHAS_CXX__Wnon_virtual_dtor   -Wnon-virtual-dtor -o CMakeFiles/cmTC_64c87.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_64c87
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64c87.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -DHAS_CXX__Wnon_virtual_dtor  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_64c87.dir/src.cxx.o  -o cmTC_64c87 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Woverloaded_virtual succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e288/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e288.dir/build.make CMakeFiles/cmTC_7e288.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e288.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -Wnon-virtual-dtor -DHAS_CXX__Woverloaded_virtual   -Woverloaded-virtual -o CMakeFiles/cmTC_7e288.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7e288
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e288.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -Wnon-virtual-dtor -DHAS_CXX__Woverloaded_virtual  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_7e288.dir/src.cxx.o  -o cmTC_7e288 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CXX__Wreorder succeeded with the following output:
+Change Dir: /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a5ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a5ec.dir/build.make CMakeFiles/cmTC_4a5ec.dir/build
+make[1]: Entering directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a5ec.dir/src.cxx.o
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi    -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -Wnon-virtual-dtor -Woverloaded-virtual -DHAS_CXX__Wreorder   -Wreorder -o CMakeFiles/cmTC_4a5ec.dir/src.cxx.o -c /home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4a5ec
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a5ec.dir/link.txt --verbose=1
+/opt/poky-tiny/2.5.2/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-musleabi/arm-poky-linux-musleabi-g++   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a5 -mmusl --sysroot=/opt/poky-tiny/2.5.2/sysroots/cortexa5hf-neon-poky-linux-musleabi   -O2 -pipe -g -feliminate-unused-debug-types  -Wall -Werror=main -Wformat -Wmain -Wuninitialized -Winit-self -Wnon-virtual-dtor -Woverloaded-virtual -DHAS_CXX__Wreorder  -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed  -rdynamic CMakeFiles/cmTC_4a5ec.dir/src.cxx.o  -o cmTC_4a5ec 
+make[1]: Leaving directory '/home/aravind/a5d2_files/mraa/mraa/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
